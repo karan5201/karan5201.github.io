@@ -272,36 +272,5 @@
         "Bereitstellung eines fuehrungsgerechten Dashboards mit Filtern, Parametern und konkreten Handlungsempfehlungen."
       ]
     }
-  },
-  {
-    "id": "olympics-data-engineering",
-    "tool": "Python",
-    "icon": "🏅",
-    "links": [
-      {
-        "label": "GitHub Repo",
-        "url": "https://github.com/karan5201/Oylmpic-data-engineering-project-"
-      }
-    ],
-    "en": {
-      "title": "Tokyo Olympics 2021 Data Engineering Project",
-      "domain": "Data Engineering",
-      "summary": "A data engineering project structuring and preparing the Tokyo 2021 Olympics datasets for downstream analysis.",
-      "details": [
-        "Organized raw Olympics datasets: Athletes, Coaches, EntriesGender, Medals and Teams.",
-        "Structured data into a dedicated data folder for a clean extract-transform-load workflow.",
-        "Prepared the dataset foundation for further analysis and reporting."
-      ]
-    },
-    "de": {
-      "title": "Data-Engineering-Projekt: Tokio Olympia 2021",
-      "domain": "Data Engineering",
-      "summary": "Ein Data-Engineering-Projekt zur Strukturierung und Aufbereitung der Datensaetze der Olympischen Spiele Tokio 2021 fuer die weiterfuehrende Analyse.",
-      "details": [
-        "Organisation der Roh-Datensaetze der Olympischen Spiele: Athleten, Trainer, Geschlechtereintraege, Medaillen und Teams.",
-        "Strukturierung der Daten in einem eigenen Datenordner fuer einen sauberen ETL-Workflow (Extract-Transform-Load).",
-        "Aufbau der Datengrundlage fuer weiterfuehrende Analysen und Reportings."
-      ]
-    }
   }
 ]
