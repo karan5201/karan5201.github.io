@@ -1,0 +1,128 @@
+[
+  {
+    "id": "atliq-excel",
+    "tool": "Excel",
+    "icon": "📊",
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/karan5201/ATLIQ-EXCEL" },
+      { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_here-is-my-recent-excel-project-situation-activity-7217820914669785089-mN1x" }
+    ],
+    "en": {
+      "title": "Excel Reports for AtliQ Hardware's Product Performance",
+      "domain": "Sales",
+      "summary": "Advanced Excel reports analyzing AtliQ Hardware's product performance and market insights to support data-driven decision making.",
+      "details": [
+        "Compared product performance and sales growth from 2020 to 2021 with interactive, filterable reports.",
+        "PC sales grew from $40.1M to $165.8M; accessories sales grew 321.5% to $338.4M.",
+        "Used ETL methodology, Power Query, Power Pivot and DAX for data processing and visualization.",
+        "Delivered insights into product performance, market trends and financial metrics across regions and customer segments."
+      ]
+    },
+    "de": {
+      "title": "Excel-Berichte zur Produktleistung von AtliQ Hardware",
+      "domain": "Vertrieb",
+      "summary": "Fortgeschrittene Excel-Berichte zur Analyse der Produktleistung und Markteinblicke von AtliQ Hardware zur Unterstuetzung datenbasierter Entscheidungen.",
+      "details": [
+        "Vergleich von Produktleistung und Umsatzwachstum von 2020 bis 2021 mit interaktiven, filterbaren Berichten.",
+        "PC-Umsatz stieg von 40,1 Mio. Dollar auf 165,8 Mio. Dollar; Zubehoerumsatz wuchs um 321,5% auf 338,4 Mio. Dollar.",
+        "Einsatz von ETL-Methodik, Power Query, Power Pivot und DAX fuer Datenverarbeitung und Visualisierung.",
+        "Lieferte Einblicke in Produktleistung, Markttrends und Finanzkennzahlen ueber Regionen und Kundensegmente hinweg."
+      ]
+    }
+  },
+  {
+    "id": "powerbi-360",
+    "tool": "Power BI",
+    "icon": "📈",
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/karan5201/power-bi" },
+      { "label": "Live Interactive Dashboard", "url": "https://app.powerbi.com/view?r=eyJrIjoiZTRmOWQzOWMtZGIxYi00NTIyLWE0OWQtNjA0YzcwYjVkMGVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" },
+      { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_powerbi-dataanalytics-businessintelligence-activity-7221479189453930496-Q80u" }
+    ],
+    "en": {
+      "title": "Power BI 360: Business Intelligence Dashboard",
+      "domain": "Business Intelligence",
+      "summary": "A comprehensive 360-degree view of business operations spanning Finance, Sales, Marketing, Supply Chain and Executive insights.",
+      "details": [
+        "Intuitive navigation across Finance, Sales, Marketing, Supply Chain and Executive views.",
+        "Advanced KPIs, interactive visualizations and detailed analyses for data-driven decisions.",
+        "Customizable filters and in-depth metric explanations tailored to different stakeholders.",
+        "Showcases advanced Power BI techniques with consistent cross-view design."
+      ]
+    },
+    "de": {
+      "title": "Power BI 360: Business-Intelligence-Dashboard",
+      "domain": "Business Intelligence",
+      "summary": "Eine umfassende 360-Grad-Sicht auf Geschaeftsablaeufe ueber Finanzen, Vertrieb, Marketing, Lieferkette und Fuehrungseinblicke hinweg.",
+      "details": [
+        "Intuitive Navigation ueber Finanzen-, Vertriebs-, Marketing-, Lieferketten- und Fuehrungsansichten.",
+        "Fortgeschrittene KPIs, interaktive Visualisierungen und detaillierte Analysen fuer datenbasierte Entscheidungen.",
+        "Anpassbare Filter und ausfuehrliche Kennzahlenerklaerungen fuer verschiedene Stakeholder.",
+        "Zeigt fortgeschrittene Power-BI-Techniken mit konsistentem Design ueber alle Ansichten hinweg."
+      ]
+    }
+  },
+  {
+    "id": "inden-bank-sql",
+    "tool": "SQL",
+    "icon": "🗄️",
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/karan5201/SQL" },
+      { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_discover-how-inden-bank-revolutionizes-its-activity-7218537838261248000-NaNR" }
+    ],
+    "en": {
+      "title": "Inden Bank Database Management System",
+      "domain": "Banking",
+      "summary": "A comprehensive DBMS for Inden Bank built in MySQL to manage financial data, clients, transactions and services.",
+      "details": [
+        "ERD with key entities: Branches, Products/Services, Clients, Accounts, Transactions.",
+        "Database schema with 5 main tables and 8 SQL queries demonstrating various operations.",
+        "Stored procedure for transaction management with a focus on data integrity and ACID properties.",
+        "Designed for efficient retrieval, scalability, security and regulatory compliance (CAP theorem applied)."
+      ]
+    },
+    "de": {
+      "title": "Datenbankmanagementsystem der Inden Bank",
+      "domain": "Banking",
+      "summary": "Ein umfassendes DBMS fuer die Inden Bank, entwickelt in MySQL zur Verwaltung von Finanzdaten, Kunden, Transaktionen und Dienstleistungen.",
+      "details": [
+        "ERD mit zentralen Entitaeten: Filialen, Produkte/Dienstleistungen, Kunden, Konten, Transaktionen.",
+        "Datenbankschema mit 5 Haupttabellen und 8 SQL-Abfragen fuer verschiedene Operationen.",
+        "Gespeicherte Prozedur fuer Transaktionsverwaltung mit Fokus auf Datenintegritaet und ACID-Eigenschaften.",
+        "Ausgelegt auf effizienten Zugriff, Skalierbarkeit, Sicherheit und regulatorische Konformitaet (CAP-Theorem angewendet)."
+      ]
+    }
+  },
+  {
+    "id": "ad-targeting-python",
+    "tool": "Python",
+    "icon": "🐍",
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/karan5201/python" },
+      { "label": "Google Colab", "url": "https://colab.research.google.com/drive/1vopfsIYWzcc2Ybrw5YLszEPXNbrUUHWF" },
+      { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_situation-tasked-with-developing-a-personalized-activity-7219275887651807234-_xgL" }
+    ],
+    "en": {
+      "title": "Personalized Ad Targeting System",
+      "domain": "Marketing",
+      "summary": "A machine-learning-driven personalized ad targeting system for a high-traffic website to boost engagement and conversions.",
+      "details": [
+        "Collected data from cookies and preprocessed it with Python/Pandas.",
+        "Performed EDA using Matplotlib to understand demographic and behavioral patterns.",
+        "Trained and compared Logistic Regression and Random Forest models (accuracy & F1 score).",
+        "Delivered real-time personalized ad display, improving engagement and conversion rates."
+      ]
+    },
+    "de": {
+      "title": "System fuer personalisiertes Ad-Targeting",
+      "domain": "Marketing",
+      "summary": "Ein durch maschinelles Lernen gesteuertes System fuer personalisiertes Ad-Targeting auf einer stark frequentierten Website zur Steigerung von Engagement und Conversions.",
+      "details": [
+        "Datenerhebung aus Cookies und Vorverarbeitung mit Python/Pandas.",
+        "Explorative Datenanalyse mit Matplotlib zur Untersuchung demografischer und verhaltensbezogener Muster.",
+        "Training und Vergleich von Logistischer Regression und Random-Forest-Modellen (Accuracy und F1-Score).",
+        "Echtzeit-Anzeige personalisierter Werbung, wodurch Engagement und Conversion-Raten verbessert wurden."
+      ]
+    }
+  }
+]
