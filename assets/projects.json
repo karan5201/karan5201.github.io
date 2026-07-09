@@ -7,6 +7,10 @@
       { "label": "GitHub Repo", "url": "https://github.com/karan5201/ATLIQ-EXCEL" },
       { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_here-is-my-recent-excel-project-situation-activity-7217820914669785089-mN1x" }
     ],
+    "images": [
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/6695997e146f3/ca469cc22f.png", "en": "Tracking success of new launches, market penetration insights", "de": "Erfolgsverfolgung neuer Produkteinfuehrungen, Markterschliessungs-Einblicke" },
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/6695997e1bc13/1c8a64cb42.png", "en": "Year-over-year growth percentages, performance visualization across segments", "de": "Jahr-ueber-Jahr-Wachstumsraten, Leistungsvisualisierung ueber verschiedene Segmente" }
+    ],
     "en": {
       "title": "Excel Reports for AtliQ Hardware's Product Performance",
       "domain": "Sales",
@@ -39,6 +43,10 @@
       { "label": "Live Interactive Dashboard", "url": "https://app.powerbi.com/view?r=eyJrIjoiZTRmOWQzOWMtZGIxYi00NTIyLWE0OWQtNjA0YzcwYjVkMGVjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" },
       { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_powerbi-dataanalytics-businessintelligence-activity-7221479189453930496-Q80u" }
     ],
+    "images": [
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/669593d6db507/ce094d1d4d.png", "en": "Financial dashboard with advanced KPIs and callout values on the graph", "de": "Finanz-Dashboard mit fortgeschrittenen KPIs und Hervorhebungswerten im Diagramm" },
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/669593d6eb24d/f72bed5191.png", "en": "Advanced executive view", "de": "Fortgeschrittene Fuehrungsansicht" }
+    ],
     "en": {
       "title": "Power BI 360: Business Intelligence Dashboard",
       "domain": "Business Intelligence",
@@ -69,6 +77,10 @@
     "links": [
       { "label": "GitHub Repo", "url": "https://github.com/karan5201/SQL" },
       { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_discover-how-inden-bank-revolutionizes-its-activity-7218537838261248000-NaNR" }
+    ],
+    "images": [
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/66959596014c7/e0d1da3829.png", "en": "ERD visualizing relationships between branches, products/services, clients, accounts and transactions", "de": "ERD zur Visualisierung der Beziehungen zwischen Filialen, Produkten/Dienstleistungen, Kunden, Konten und Transaktionen" },
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/669595960f660/5eaecb8d1d.png", "en": "SQL query using GROUP BY to aggregate account balances and transaction patterns by branch", "de": "SQL-Abfrage mit GROUP BY zur Aggregation von Kontostaenden und Transaktionsmustern nach Filiale" }
     ],
     "en": {
       "title": "Inden Bank Database Management System",
@@ -101,6 +113,10 @@
       { "label": "GitHub Repo", "url": "https://github.com/karan5201/python" },
       { "label": "Google Colab", "url": "https://colab.research.google.com/drive/1vopfsIYWzcc2Ybrw5YLszEPXNbrUUHWF" },
       { "label": "LinkedIn Post", "url": "https://www.linkedin.com/posts/karankumar-hirapara-25b5b0239_situation-tasked-with-developing-a-personalized-activity-7219275887651807234-_xgL" }
+    ],
+    "images": [
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/6695974619bdf/02aae11eef.png", "en": "Customer age distribution visualized with Matplotlib to reveal demographic patterns", "de": "Altersverteilung der Kunden mit Matplotlib visualisiert zur Aufdeckung demografischer Muster" },
+      { "src": "https://images.codebasics.io/filters:format(webp)/fit-in/650x650/uploads/learner-portfolio/projects/screenshot/94425/669597462a1d7/705ae0a2ce.png", "en": "Model evaluation comparing Logistic Regression and Random Forest via accuracy and F1 score", "de": "Modellevaluierung: Vergleich von Logistischer Regression und Random Forest anhand von Genauigkeit und F1-Score" }
     ],
     "en": {
       "title": "Personalized Ad Targeting System",

@@ -204,9 +204,13 @@ function renderProjects(filter) {
   currentFilter = filter;
   const grid = document.getElementById("projectsGrid");
   const list = filter === "all" ? PROJECTS : PROJECTS.filter(p => p.tool === filter);
-  grid.innerHTML = list.map(p => `
+  grid.innerHTML = list.map(p => {
+    const thumb = (p.images && p.images.length)
+      ? `<img src="${p.images[0].src}" alt="${p[currentLang].title}" loading="lazy">`
+      : (p.icon || "📁");
+    return `
     <article class="project-card" data-id="${p.id}">
-      <div class="project-thumb">${p.icon || "📁"}</div>
+      <div class="project-thumb${p.images && p.images.length ? " has-photo" : ""}">${thumb}</div>
       <div class="project-body">
         <span class="project-tag">${p.tool}</span>
         <h3>${p[currentLang].title}</h3>
@@ -215,7 +219,8 @@ function renderProjects(filter) {
         <span class="project-cta">${I18N[currentLang]["projects.viewDetails"]}</span>
       </div>
     </article>
-  `).join("");
+  `;
+  }).join("");
   grid.querySelectorAll(".project-card").forEach(card => {
     card.addEventListener("click", () => openModal(card.dataset.id));
   });
@@ -230,10 +235,21 @@ function openModal(id) {
   const p = PROJECTS.find(x => x.id === id);
   if (!p) return;
   const c = p[currentLang];
+  const gallery = (p.images && p.images.length) ? `
+    <div class="modal-gallery">
+      ${p.images.map(img => `
+        <figure class="modal-gallery-item">
+          <img src="${img.src}" alt="${img[currentLang] || c.title}" loading="lazy">
+          ${img[currentLang] ? `<figcaption>${img[currentLang]}</figcaption>` : ""}
+        </figure>
+      `).join("")}
+    </div>
+  ` : "";
   modalBody.innerHTML = `
     <span class="project-tag">${p.tool}</span>
     <h2 id="modalTitle">${c.title}</h2>
     <div class="m-domain">${I18N[currentLang]["projects.domainLabel"]} ${c.domain}</div>
+    ${gallery}
     <p>${c.summary}</p>
     <ul>${c.details.map(d => `<li>${d}</li>`).join("")}</ul>
     <div class="modal-links">
